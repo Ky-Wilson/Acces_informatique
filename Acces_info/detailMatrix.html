@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Acces informatique</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Acces informatique" name="keywords">
+        <meta content="Acces informatique" name="description">
+    
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+    
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+    
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Côte d'Ivoire, Abidjan, Yopougon Sable - Andokoi</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>01 01 57 30 54</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@accessinformatique.com</small>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://wa.me/2250707261858"><i class="fab fa-whatsapp fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://web.facebook.com/AccessInformatiques"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <!-- <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="m-0"><i class="fa"></i><img src="img/aaa.jpg" alt="" style="height: 50px;"></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Accueil</a>
+                    <a href="about.html" class="nav-item nav-link">A propos</a>
+                    <a href="solution.html" class="nav-item nav-link active">Nos solutions</a>
+                    <a href="formation.html" class="nav-item nav-link">Formations</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
+            <div class="row py-5">
+                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-4 text-white animated zoomIn">Matrix</h1>
+                    <a href="" class="h5 text-white">Solution</a>
+                    <i class="far fa-circle text-white px-2"></i>
+                    <a href="" class="h5 text-white">Matrix details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Blog Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-8">
+                    <!-- Blog Detail Start -->
+                    <div class="mb-5">
+                        <img class="img-fluid w-100 rounded mb-5" src="img/blog-1.jpg" alt="">
+                        <h1 class="mb-4">Matrix:Logiciel de gestion comptable et de budget</h1>
+                       <p>
+                        <strong>Matrix</strong> est un logiciel de gestion comptable conçu par ACCESS INFORMATIQUE, respectant les normes SYSCOHADA.
+                         Il est régulièrement mis à jour pour garantir une conformité continue aux réglementations en vigueur. 
+                         Grâce à une assistance complète incluant installation, configuration, et formation, Matrix vous accompagne à chaque étape.
+                         Adapté aux besoins comptables de la Côte d'Ivoire et de l'Afrique de l'Ouest, il se distingue par sa simplicité, son intégration complète et sa flexibilité, fonctionnant en mode monoposte ou en réseau client-serveur (C/S).
+                        </p>
+                       <p>
+                        <h2>
+                            Les fonctionnalités principales
+                        </h2>
+                        <ul>
+                            <li>Création de plan comptable adapté au SYSCOA</li>
+                            <li>Paramétrage de société</li>
+                            <li>Gestion de la comptabilité générale et des tiers</li>
+                            <li>Paramétrage des taux de taxes</li>
+                            <li>Configuration des journaux</li>
+                            <li>Configuration des postes comptables</li>
+                            <li>Gestion des banques</li>
+                            <li>Gestion du reporting</li>
+                            <li>Gestion des devises</li>
+                            <li>Règlements des tiers</li>
+                            <li>Relances clients et relevés tiers</li>
+                            <li>Transfert de données vers d’autres logiciels</li>
+                            <li>Saisie des écritures</li>
+                            <li>Validation des écritures</li>
+                            <li>Interrogation de comptes</li>
+                            <li>Recherche d'écritures</li>
+                            <li>Édition de brouillard</li>
+                            <li>Édition de journal</li>
+                            <li>Édition de grand-livre</li>
+                            <li>Édition de balance</li>
+                            <li>Édition de comptes de résultats</li>
+                            <li>Gestion budgétaire</li>
+                            <li>Rapprochement bancaire</li>
+                            <li>Édition de bilan, TAFIRE</li>
+                            <li>Déclaration d'impôts automatisée (TVA, AIRSI, CNPS...)</li>
+                            <li>Clôture de l'exercice en cours</li>
+                            <li>Ouverture d'un nouvel exercice</li>
+                        </ul>                        
+                       </p>
+                    </div>
+                    <!-- Blog Detail End -->
+
+                </div>
+    
+                <!-- Sidebar Start -->
+                <div class="col-lg-4">
+    
+                    <!-- Category Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Autres solutions</h3>
+                        </div>
+                        <div class="link-animated d-flex flex-column justify-content-start">
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="detailMySchool.html"><i class="bi bi-arrow-right me-2"></i>MySchool</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="detailSoluMed.html"><i class="bi bi-arrow-right me-2"></i>SoluMed</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="detailSimba.html"><i class="bi bi-arrow-right me-2"></i>Simba</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="detailSmartRHPaie.html"><i class="bi bi-arrow-right me-2"></i>SmartRHPaie</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="detailMusa.html"><i class="bi bi-arrow-right me-2"></i>Musa</a>
+                        </div>
+                    </div>
+                    <!-- Category End -->
+    
+                    <!-- Plain Text Start -->
+                    <div class="wow slideInUp" data-wow-delay="0.1s">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Demonstration</h3>
+                        </div>
+                        <div class="bg-light text-center" style="padding: 30px;">
+                            <p>Vous pouvez voir une petite demo du logiciel Matrix ou simplement telecharger sa fiche de presentation</p>
+                            <a href="https://web.facebook.com/AccessInformatiques/videos/245234306955189/" class="btn btn-primary py-2 px-4">Voir la demo</a>
+                            <a href="pdf/Matrix.pdf" download="Matrix.pdf" class="btn btn-primary py-2 px-4" style="margin-top: 10px;">Fiche de présentation</a>
+                        </div>
+                    </div>
+                    <!-- Plain Text End -->
+                </div>
+                <!-- Sidebar End -->
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+
+    <!-- Vendor Start -->
+    <!-- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <h3 style="text-align: center;">Quelques utilisateurs de SoluMed</h3>
+        <div class="container py-5 mb-5">
+            <div class="bg-white">
+                <div class="owl-carousel vendor-carousel">
+                    <img src="img/vendor-1.jpg" alt="">
+                    <img src="img/vendor-2.png" alt="">
+                    <img src="img/vendor-3.png" alt="">
+                    <img src="img/vendor-5.png" alt="">
+                    <img src="img/vendor-7.png" alt="">
+                    <img src="img/vendor-8.png" alt="">
+                    <img src="img/vendor-10.png" alt="">
+                    <img src="img/vendor-19.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Vendor End -->
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
+                        <a href="index.html" class="navbar-brand">
+                            <h1 class="m-0 text-white"><i class="fa"></i><img src="img/aaa.jpg" alt="" style="height: 50px;"></h1>
+                        </a>
+                        <p class="mt-3 mb-4">Notre mission est simple : transformer vos idées en solutions concrètes et efficaces, grâce à des technologies de pointe et une approche centrée sur l'utilisateur.</p>
+                        <form action="">
+                            <div class="input-group">
+                                
+                                <button class="btn btn-dark"><a href="contact.html"> Contactez-nous</a></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Nos coordonnées</h3>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                <p class="mb-0">Côte d'Ivoire, Abidjan, Yopougon Sable - Andokoi</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-envelope-open text-primary me-2"></i>
+                                <p class="mb-0">info@accessinformatique.com</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-telephone text-primary me-2"></i>
+                                <p class="mb-0">01 01 57 30 54</p>
+                            </div>
+                            <div class="d-flex mt-4">
+                                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://wa.me/2250707261858"><i class="fab fa-whatsapp fw-normal"></i></a>
+                                <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://web.facebook.com/AccessInformatiques"><i class="fab fa-facebook-f fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Pages</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Accueil</a>
+                                <a class="text-light mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>A propos</a>
+                                <a class="text-light mb-2" href="solution.html"><i class="bi bi-arrow-right text-primary me-2"></i>Nos solutions</a>
+                                <a class="text-light mb-2" href="formation.html"><i class="bi bi-arrow-right text-primary me-2"></i>Formation</a>
+                                <a class="text-light" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contactez-nous</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Liens populaires</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>A propos</a>
+                                <a class="text-light mb-2" href="solution.html"><i class="bi bi-arrow-right text-primary me-2"></i>Nos solutions</a>
+                                <a class="text-light mb-2" href="formation.html"><i class="bi bi-arrow-right text-primary me-2"></i>Formation</a>
+                                <a class="text-light" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-white" style="background: #061429;">
+        <div class="container text-center">
+            <div class="row justify-content-end">
+                <div class="col-lg-8 col-md-6">
+                    <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="https://hlabdev.netlify.app/">Hlab_dev</a>. Tous droits reservés. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
